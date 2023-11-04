@@ -1,0 +1,319 @@
+/*CSS RESET */
+html, *, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* INÍCIO CABEÇALHO*/
+#cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    height: 90px;
+    background-color: black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+#cabecalho h2 {
+    padding: 15px;
+    font-size: 2em;
+}
+#cabecalho nav {
+    width: 60%;
+}
+
+#cabecalho nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-style: none;
+    list-style: none;
+    padding: 15px;
+}
+#cabecalho nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+#cabecalho nav ul li a:hover {
+    color: #80ac79;
+    padding: 5px;
+}
+
+/*Fundo*/
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+
+/* INÍCIO APRESENTAÇÃO*/
+#apresentacao {
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    height: 600px;
+}
+#apresentacao .descricao {
+    font-family: 'Roboto', sans-serif;
+    width: 30%;
+}
+#apresentacao .descricao .icones {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    background-color: black;
+    width: 120px;
+    border-radius: 10px;
+}
+#apresentacao .descricao .icones img {
+    width: 35px;
+    padding:3px;
+}
+#apresentacao #foto {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px; 
+}
+#apresentacao .descricao h1 {
+    font-size: 2em;
+    font-weight: 400;
+}
+#apresentacao .descricao h2 {
+    font-size: 1.2em;
+    color: #8bb25a;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+#apresentacao .descricao p {
+    margin-bottom: 25px;
+}
+
+/* INÍCIO HABILIDADES*/
+#habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    align-content: center;
+    gap: 50px;
+    height: 800px;
+}
+#habilidades #habilidades {
+    height: 200px;
+}
+#habilidades #habilidades h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 10em;
+    color: #808080;
+    opacity: 5%;
+    margin-bottom: 0;
+}
+#habilidades #habilidades h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-top: -15%;
+}
+#habilidades #skills {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 80px;
+}
+#habilidades #skills h2 {
+    text-align: center;
+    font-weight: 100;
+}
+#habilidades #skills .skills div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f6f6f6;
+    width: 250px;
+    text-align: center;
+    font-size: 0.8em;
+    padding: 15px;
+    height: 200px;
+}
+#habilidades a {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 80px;
+}
+
+/* INÍCIO EDUCAÇÃO*/
+#educacao {
+    background-color: #f6f6f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 10px;
+    height: 800px;
+}
+#educacao #educacao {
+    height: 200px;
+    margin-bottom: 50px;
+}
+#educacao #educacao h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 10em;
+    color: #808080;
+    opacity: 5%;
+    margin-bottom: 0;
+}
+#educacao #educacao h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-top: -10%;
+}
+#educacao .educacao {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    gap: 40px;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+#educacao .educacao .foto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+}
+#educacao .educacao .foto h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+#educacao .educacao .foto img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+#educacao .educacao .descricao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+    align-content: center;
+}
+#educacao .educacao .descricao h3 {
+    font-size: 1em;
+    font-weight: 700;
+}
+#educacao .educacao .descricao p {
+    font-size: 0.9em;
+    font-weight: 100;
+}
+#educacao a {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* INÍCIO EXPERIÊNCIA*/
+#experiencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    gap: 10px;
+    height: 800px;
+}
+#experiencia #experiencia {
+    height: 200px;
+    margin-bottom: 50px;
+}
+#experiencia #experiencia h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 10em;
+    color: #808080;
+    opacity: 5%;
+    margin-bottom: 0;
+}
+#experiencia #experiencia h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    margin-top: -10%;
+}
+#experiencia .experiencia {
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+}
+#experiencia .experiencia img {
+    width: 100px;
+    height: 100px;
+}
+#experiencia .experiencia .esquerda {
+    background-color: #f6f6f6;
+    border-radius: 50px;
+    display: flex;
+    justify-content: baseline;
+    font-size: 0.8em;
+}
+#experiencia .experiencia .esquerda img {
+    border-radius: 50px 0px 0px 50px;
+}
+#experiencia .experiencia .esquerda div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+#experiencia .experiencia .direita {
+    background-color: #bed4a2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: end;
+    font-size: 0.8em;
+}
+#experiencia .experiencia .direita img {
+    border-radius: 0px 50px 50px 0px;
+}
+#experiencia .experiencia .direita div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    text-align: end;
+}
+#experiencia a {
+    font-family: 'Roboto', sans-serif;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* INÍCIO DO RODAPÉ*/
+footer {
+    display: flex;
+    background-color: #000000;
+    height: 80px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8em;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
